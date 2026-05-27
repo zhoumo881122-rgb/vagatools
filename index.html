@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="zh-CN" data-page="home">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>VagaTools - 实用在线工具导航</title>
+  <meta name="description" content="VagaTools 是面向日常办公、开发、文本处理、图片处理和站长运营的实用在线工具导航，帮助用户快速找到可靠、轻量、无需复杂注册的工具入口。">
+  <meta name="robots" content="index, follow">
+  <meta name="google-adsense-account" content="ca-pub-9943771829287979">
+  <link rel="canonical" href="https://vagatools.com/">
+  <link rel="stylesheet" href="/styles.css">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9943771829287979" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="/" aria-label="VagaTools 首页">
+      <span class="brand-mark">V</span>
+      <span>VagaTools</span>
+    </a>
+    <nav class="main-nav" aria-label="主导航">
+      <a href="#tools" data-i18n="nav.tools">工具目录</a>
+      <a href="#guides" data-i18n="nav.guides">使用指南</a>
+      <a href="/about.html" data-i18n="nav.about">关于</a>
+      <a href="/contact.html" data-i18n="nav.contact">联系</a>
+      <label class="language-control">
+        <span data-i18n="nav.language">语言</span>
+        <select id="language-select" aria-label="Language">
+          <option value="auto">Auto</option>
+          <option value="zh-CN">中文</option>
+          <option value="en">English</option>
+          <option value="ja">日本語</option>
+          <option value="ko">한국어</option>
+          <option value="fr">Français</option>
+          <option value="de">Deutsch</option>
+          <option value="es">Español</option>
+          <option value="pt">Português</option>
+          <option value="ru">Русский</option>
+          <option value="ar">العربية</option>
+        </select>
+      </label>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow" data-i18n="home.hero.eyebrow">Practical Tools Directory</p>
+        <h1 data-i18n="home.hero.title">VagaTools 实用工具导航</h1>
+        <p class="lead" data-i18n="home.hero.lead">把常用的在线工具按真实场景整理起来：文本、图片、开发、站长、效率和单位换算。主站先提供清晰的工具索引和使用建议，后续分站会逐步上线可直接使用的工具。</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#tools" data-i18n="home.hero.browse">浏览工具</a>
+          <a class="button" href="#submit" data-i18n="home.hero.suggest">建议新工具</a>
+        </div>
+      </div>
+      <div class="quick-panel" aria-label="站点概览">
+        <div>
+          <strong>6</strong>
+          <span data-i18n="home.stats.categories">工具分类</span>
+        </div>
+        <div>
+          <strong>36</strong>
+          <span data-i18n="home.stats.entries">精选入口</span>
+        </div>
+        <div>
+          <strong data-i18n="home.stats.light">轻量</strong>
+          <span data-i18n="home.stats.lightNote">优先推荐无需安装的方案</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="why-title">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="home.why.eyebrow">Why VagaTools</p>
+        <h2 id="why-title" data-i18n="home.why.title">按任务找工具，而不是在搜索结果里来回试错</h2>
+      </div>
+      <div class="feature-grid">
+        <article>
+          <h3 data-i18n="home.why.f1.title">场景化整理</h3>
+          <p data-i18n="home.why.f1.text">每个分类围绕常见任务组织，例如压缩图片、格式化 JSON、生成二维码、统计字数、检查网站状态等。</p>
+        </article>
+        <article>
+          <h3 data-i18n="home.why.f2.title">优先轻量可访问</h3>
+          <p data-i18n="home.why.f2.text">收录时优先考虑打开速度、界面清晰度、移动端可用性和是否需要复杂注册。</p>
+        </article>
+        <article>
+          <h3 data-i18n="home.why.f3.title">持续更新</h3>
+          <p data-i18n="home.why.f3.text">分站工具会逐步补齐，主站也会根据用户反馈调整分类、说明和推荐顺序。</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="tools" class="section band" aria-labelledby="tools-title">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="home.directory.eyebrow">Directory</p>
+        <h2 id="tools-title" data-i18n="home.directory.title">工具目录</h2>
+      </div>
+      <div class="filter-bar" role="search">
+        <label for="tool-search" data-i18n="home.search.label">搜索工具</label>
+        <input id="tool-search" type="search" placeholder="输入关键词，例如 JSON、图片、二维码" data-i18n-placeholder="home.search.placeholder" autocomplete="off">
+      </div>
+      <div class="tool-grid" id="tool-grid">
+        <article class="tool-card" data-keywords="文本 字数 去重 大小写 markdown">
+          <h3 data-i18n="home.cards.text.title">文本处理</h3>
+          <p data-i18n="home.cards.text.text">字数统计、大小写转换、去重排序、Markdown 清理、空行处理。</p>
+          <a href="#text-tools" data-i18n="home.cards.link">查看建议</a>
+        </article>
+        <article class="tool-card" data-keywords="图片 压缩 裁剪 格式转换 webp png jpg">
+          <h3 data-i18n="home.cards.image.title">图片工具</h3>
+          <p data-i18n="home.cards.image.text">图片压缩、尺寸裁剪、格式转换、背景处理、图标生成。</p>
+          <a href="#image-tools" data-i18n="home.cards.link">查看建议</a>
+        </article>
+        <article class="tool-card" data-keywords="开发 json base64 url timestamp hash">
+          <h3 data-i18n="home.cards.dev.title">开发工具</h3>
+          <p data-i18n="home.cards.dev.text">JSON 格式化、Base64 编码、URL 编解码、时间戳转换、哈希计算。</p>
+          <a href="#dev-tools" data-i18n="home.cards.link">查看建议</a>
+        </article>
+        <article class="tool-card" data-keywords="站长 seo dns whois ping ssl">
+          <h3 data-i18n="home.cards.webmaster.title">站长工具</h3>
+          <p data-i18n="home.cards.webmaster.text">DNS 查询、Whois、SSL 检测、HTTP 状态、页面速度和 SEO 检查。</p>
+          <a href="#webmaster-tools" data-i18n="home.cards.link">查看建议</a>
+        </article>
+        <article class="tool-card" data-keywords="效率 计时 番茄钟 清单 随机 决策">
+          <h3 data-i18n="home.cards.productivity.title">效率工具</h3>
+          <p data-i18n="home.cards.productivity.text">番茄钟、倒计时、随机选择器、待办清单、会议记录模板。</p>
+          <a href="#productivity-tools" data-i18n="home.cards.link">查看建议</a>
+        </article>
+        <article class="tool-card" data-keywords="换算 单位 汇率 时区 颜色">
+          <h3 data-i18n="home.cards.converter.title">换算工具</h3>
+          <p data-i18n="home.cards.converter.text">单位换算、时区换算、颜色值转换、屏幕尺寸和比例计算。</p>
+          <a href="#converter-tools" data-i18n="home.cards.link">查看建议</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="guides" class="section" aria-labelledby="guides-title">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="home.guides.eyebrow">Guides</p>
+        <h2 id="guides-title" data-i18n="home.guides.title">工具选择建议</h2>
+      </div>
+      <div class="guide-list">
+        <article id="text-tools">
+          <h3 data-i18n="home.guides.text.title">文本工具怎么选</h3>
+          <p data-i18n="home.guides.text.text">处理隐私内容时，优先选择本地浏览器内完成计算的工具。批量文本操作要注意是否保留原始换行、空格和编码格式，避免复制到表格或代码编辑器后出现不可见字符。</p>
+        </article>
+        <article id="image-tools">
+          <h3 data-i18n="home.guides.image.title">图片压缩与格式转换</h3>
+          <p data-i18n="home.guides.image.text">网页图片通常优先考虑 WebP 或 AVIF；需要兼容旧系统时保留 JPG 或 PNG。压缩前建议先确认目标尺寸，避免上传超大原图后再依赖压缩工具补救。</p>
+        </article>
+        <article id="dev-tools">
+          <h3 data-i18n="home.guides.dev.title">开发调试工具</h3>
+          <p data-i18n="home.guides.dev.text">JSON、Base64、URL 编码和时间戳工具适合快速排查数据格式问题。涉及密钥、Token 或生产用户数据时，不建议粘贴到不可信的第三方站点。</p>
+        </article>
+        <article id="webmaster-tools">
+          <h3 data-i18n="home.guides.webmaster.title">站长检测工具</h3>
+          <p data-i18n="home.guides.webmaster.text">上线前至少检查 HTTPS、robots.txt、sitemap.xml、404 页面和移动端显示。域名解析变更后，DNS 生效可能需要等待，不同地区看到的结果也可能不同。</p>
+        </article>
+        <article id="productivity-tools">
+          <h3 data-i18n="home.guides.productivity.title">效率工具的使用边界</h3>
+          <p data-i18n="home.guides.productivity.text">倒计时、番茄钟和清单工具适合降低任务切换成本，但不应替代项目管理。复杂协作仍然建议使用带权限、历史记录和通知机制的专业工具。</p>
+        </article>
+        <article id="converter-tools">
+          <h3 data-i18n="home.guides.converter.title">换算工具注意事项</h3>
+          <p data-i18n="home.guides.converter.text">单位、时区和颜色换算要确认输入标准。例如英寸和厘米、UTC 和本地时间、RGB 和 HEX 的转换都可能因为上下文不同而产生误读。</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="submit" class="section band" aria-labelledby="submit-title">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="home.submit.eyebrow">Feedback</p>
+        <h2 id="submit-title" data-i18n="home.submit.title">建议收录或制作新工具</h2>
+      </div>
+      <p class="wide-copy" data-i18n="home.submit.text">如果你希望 VagaTools 优先上线某类工具，可以通过联系页面发送建议。请尽量说明使用场景、输入输出格式、是否需要批量处理，以及是否涉及隐私数据。</p>
+      <a class="button primary" href="/contact.html" data-i18n="home.submit.button">提交建议</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <strong>VagaTools</strong>
+      <p data-i18n="footer.tagline">实用在线工具导航，持续整理和建设轻量工具分站。</p>
+    </div>
+    <nav aria-label="页脚导航">
+      <a href="/about.html" data-i18n="footer.about">关于我们</a>
+      <a href="/privacy.html" data-i18n="footer.privacy">隐私政策</a>
+      <a href="/terms.html" data-i18n="footer.terms">使用条款</a>
+      <a href="/contact.html" data-i18n="footer.contact">联系我们</a>
+    </nav>
+  </footer>
+
+  <script src="/i18n.js"></script>
+  <script>
+    const searchInput = document.querySelector('#tool-search');
+    const cards = Array.from(document.querySelectorAll('.tool-card'));
+
+    searchInput.addEventListener('input', () => {
+      const query = searchInput.value.trim().toLowerCase();
+      cards.forEach((card) => {
+        const text = `${card.textContent} ${card.dataset.keywords}`.toLowerCase();
+        card.hidden = query.length > 0 && !text.includes(query);
+      });
+    });
+  </script>
+</body>
+</html>

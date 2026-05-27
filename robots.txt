@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://vagatools.com/sitemap.xml
