@@ -58,8 +58,8 @@
           <span data-i18n="home.stats.categories">工具分类</span>
         </div>
         <div>
-          <strong>36</strong>
-          <span data-i18n="home.stats.entries">精选入口</span>
+          <strong>9</strong>
+          <span data-i18n="home.stats.entries">已上线工具</span>
         </div>
         <div>
           <strong data-i18n="home.stats.light">轻量</strong>
@@ -130,6 +130,48 @@
           <a href="#converter-tools" data-i18n="home.cards.link">查看建议</a>
         </article>
       </div>
+      <div class="section-heading live-heading">
+        <p class="eyebrow" data-i18n="home.live.eyebrow">Live Tools</p>
+        <h2 data-i18n="home.live.title">已上线工具分站</h2>
+      </div>
+      <div class="live-tool-grid" aria-label="已上线工具分站">
+        <a class="live-tool" href="https://y2mate.vagatools.com/" data-keywords="video y2mate download 视频 下载">
+          <strong data-i18n="home.live.y2mate.title">Y2Mate 工具</strong>
+          <span data-i18n="home.live.y2mate.text">视频相关在线工具入口。</span>
+        </a>
+        <a class="live-tool" href="https://emoji.vagatools.com/" data-keywords="emoji 表情 符号">
+          <strong data-i18n="home.live.emoji.title">Emoji 工具</strong>
+          <span data-i18n="home.live.emoji.text">查找、复制和整理常用 Emoji。</span>
+        </a>
+        <a class="live-tool" href="https://img.vagatools.com/" data-keywords="image img 图片 压缩 转换">
+          <strong data-i18n="home.live.img.title">图片工具</strong>
+          <span data-i18n="home.live.img.text">图片处理、转换和常用编辑入口。</span>
+        </a>
+        <a class="live-tool" href="https://ico.vagatools.com/" data-keywords="ico favicon icon 图标">
+          <strong data-i18n="home.live.ico.title">ICO 图标工具</strong>
+          <span data-i18n="home.live.ico.text">图标、favicon 和 ICO 相关工具。</span>
+        </a>
+        <a class="live-tool" href="https://fuhao.vagatools.com/" data-keywords="symbol fuhao 符号 特殊符号">
+          <strong data-i18n="home.live.fuhao.title">符号工具</strong>
+          <span data-i18n="home.live.fuhao.text">特殊符号、文本符号和复制入口。</span>
+        </a>
+        <a class="live-tool" href="https://pdf.vagatools.com/" data-keywords="pdf 文档 转换 合并">
+          <strong data-i18n="home.live.pdf.title">PDF 工具</strong>
+          <span data-i18n="home.live.pdf.text">PDF 处理、转换和文档工具入口。</span>
+        </a>
+        <a class="live-tool" href="https://english.vagatools.com/" data-keywords="english 英语 学习 单词">
+          <strong data-i18n="home.live.english.title">英语工具</strong>
+          <span data-i18n="home.live.english.text">英语学习、写作和语言辅助工具。</span>
+        </a>
+        <a class="live-tool" href="https://juzi.vagatools.com/" data-keywords="sentence juzi 句子 文案">
+          <strong data-i18n="home.live.juzi.title">句子工具</strong>
+          <span data-i18n="home.live.juzi.text">句子、短语和文案相关工具。</span>
+        </a>
+        <a class="live-tool" href="https://dx.vagatools.com/" data-keywords="case dx 大小写 转换">
+          <strong data-i18n="home.live.dx.title">大小写转换</strong>
+          <span data-i18n="home.live.dx.text">英文大小写和文本格式转换工具。</span>
+        </a>
+      </div>
     </section>
 
     <section id="guides" class="section" aria-labelledby="guides-title">
@@ -191,7 +233,7 @@
   <script src="/i18n.js"></script>
   <script>
     const searchInput = document.querySelector('#tool-search');
-    const cards = Array.from(document.querySelectorAll('.tool-card'));
+    const cards = Array.from(document.querySelectorAll('.tool-card, .live-tool'));
 
     searchInput.addEventListener('input', () => {
       const query = searchInput.value.trim().toLowerCase();

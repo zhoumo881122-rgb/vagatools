@@ -226,6 +226,42 @@ h3 {
   gap: 18px;
 }
 
+.live-heading {
+  margin-top: 34px;
+}
+
+.live-tool-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.live-tool {
+  display: grid;
+  gap: 8px;
+  min-height: 112px;
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  color: var(--ink);
+  background: #fff;
+  text-decoration: none;
+}
+
+.live-tool:hover {
+  border-color: rgba(15, 118, 110, 0.45);
+  box-shadow: 0 12px 30px rgba(23, 32, 38, 0.08);
+}
+
+.live-tool strong {
+  font-size: 18px;
+  line-height: 1.25;
+}
+
+.live-tool span {
+  color: var(--muted);
+}
+
 .feature-grid article,
 .tool-card,
 .guide-list article {
@@ -340,7 +376,8 @@ h3 {
 
   .hero,
   .feature-grid,
-  .tool-grid {
+  .tool-grid,
+  .live-tool-grid {
     grid-template-columns: 1fr;
   }
 
