@@ -319,6 +319,10 @@ h3 {
   gap: 14px;
 }
 
+.guide-more {
+  margin: 24px 0 0;
+}
+
 .guide-list article {
   padding: 22px;
 }

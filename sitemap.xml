@@ -1,32 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://vagatools.com/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <loc>https://www.vagatools.com/</loc>
+    <lastmod>2026-06-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://vagatools.com/about.html</loc>
-    <lastmod>2026-05-27</lastmod>
+    <loc>https://www.vagatools.com/guides.html</loc>
+    <lastmod>2026-06-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.vagatools.com/about.html</loc>
+    <lastmod>2026-06-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://vagatools.com/privacy.html</loc>
-    <lastmod>2026-05-27</lastmod>
+    <loc>https://www.vagatools.com/privacy.html</loc>
+    <lastmod>2026-06-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://vagatools.com/terms.html</loc>
-    <lastmod>2026-05-27</lastmod>
+    <loc>https://www.vagatools.com/terms.html</loc>
+    <lastmod>2026-06-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://vagatools.com/contact.html</loc>
-    <lastmod>2026-05-27</lastmod>
+    <loc>https://www.vagatools.com/contact.html</loc>
+    <lastmod>2026-06-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
