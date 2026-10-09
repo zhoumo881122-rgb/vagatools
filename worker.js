@@ -1,0 +1,1 @@
+export default {async fetch(request,env){const url=new URL(request.url);if(url.pathname==='/geo'){return new Response(JSON.stringify({country:request.cf?.country||null}),{headers:{'content-type':'application/json; charset=utf-8','cache-control':'private, no-store'}})}return env.ASSETS.fetch(request)}};
